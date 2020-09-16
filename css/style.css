@@ -381,8 +381,8 @@ h2 {
 }
 
 img {
-    height:30em;
-    width: 30em;
+    height: 5em;
+    width: 5em;
 }
 
 p {
@@ -421,7 +421,8 @@ p {
 }
 .perfilpersonal > img {
     margin: auto;
-    float: center; 
+    float: center;
+    
     
 }
 h3 {
