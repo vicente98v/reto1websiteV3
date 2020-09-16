@@ -1,0 +1,492 @@
+header {
+    background-color: #bfbfbf;
+    display: flex;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding: 0px 5vw 0px 15px; /*Arriba Derecha Abajo Izquierda */
+}
+
+nav {
+    display: inline-block;
+      /* Quitar posiblemente*/
+    width:60%;
+}
+
+    nav ul {
+        margin: auto;
+        padding: 0;
+        list-style: none;
+        padding-left: 5%;
+        
+    }
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+            
+            
+           
+        }
+            nav ul li a {
+                
+                padding: 0 10px;
+                text-decoration: none;
+                color: #000000;
+                
+                
+            }
+                nav ul li a:hover {
+                    background: #002171; 
+                    color: #b4e2fc;
+                    
+                }
+
+h2 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.5em;
+    padding-left: 1vw;
+}
+
+img {
+    height:20em;
+    width: 20em;
+}
+
+p {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto;
+    grid-row-gap: 2em;
+    grid-column-gap: 1em;
+    padding-left: 3em;
+    margin: auto;
+    float: center;
+}
+
+.listafrases {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+    
+}
+
+.perfilpersonal {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20em;
+    padding-bottom: 5vh;
+}
+.perfilpersonal > p {
+    margin: auto;
+    float: center;
+}
+
+h3 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.2em;
+    padding-left: 1vw;
+}
+
+.perfilprofesional > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+.perfilacademico > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+
+.perfiles {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    background-color: #f2f2f2;
+}
+.divcontacto {
+    display: grid;
+    grid-template-columns: 80%;
+}
+.divcontacto > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+    
+}
+.enlace {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    background-color: #f2f2f2;
+    padding: 2em;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 10vw;
+    margin: auto;
+    text-align: center;
+}
+.enlace > a {
+    color: #002171;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #bfbfbf;
+    height: 20vh;
+    margin: auto;
+    
+}
+
+
+    
+@media (max-width: 768px) {
+    header {
+        background-color: #bfbfbf;
+        display: flex;
+        margin: auto;
+        height: 4em;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        padding: 0px 5vw 0px 15px; /*Arriba Derecha Abajo Izquierda */
+        
+        
+    }
+    h1 {
+        font-size: 1.3em;
+        margin: auto;
+    }
+    nav {
+        width:70%;
+        display: inline-block;
+          /* Quitar posiblemente*/
+        
+    }
+    
+        nav ul {
+            margin: auto;
+            padding: 0;
+            list-style: none;
+            
+            
+        }
+            nav ul li {
+                display: inline-block;
+                line-height: 80px;
+                
+               
+            }
+                nav ul li a {
+                    
+                    padding: 0 10px;
+                    text-decoration: none;
+                    color: #000000;
+                    
+                }
+                    nav ul li a:hover {
+                        background: #002171; 
+                        color: #b4e2fc;
+                    }
+
+ 
+                
+h2 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.5em;
+    padding-left: 1vw;
+}
+
+img {
+    height:12em;
+    width: 12em;
+}
+
+p {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto;
+    grid-row-gap: 3vh;
+    padding-left: 3em;
+}
+
+.listafrases {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+    
+}
+
+.perfilpersonal {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto 20em;
+    padding-bottom: 5vh;
+}
+.perfilpersonal > p {
+    margin: auto;
+    float: center;
+    padding-bottom: 5vh;
+}
+.perfilpersonal > img {
+    margin: auto;
+    float: center;
+    height:20em;
+    width: 20em;
+
+    
+}
+h3 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.2em;
+    padding-left: 1vw;
+}
+
+.perfilprofesional > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+.perfilacademico > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+
+.perfiles {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    background-color: #f2f2f2;
+}
+.divcontacto {
+    display: grid;
+    grid-template-columns: 80%;
+}
+.divcontacto > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+    
+}
+.enlace {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    background-color: #f2f2f2;
+    padding: 2em;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 15vw;
+    margin: auto;
+    text-align: center;
+}
+.enlace > a {
+    color: #002171;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #bfbfbf;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    height: auto;
+    margin: auto;
+    
+}
+}
+
+/*Adaptamos el header a dispositivo movil*/
+@media (max-width: 500px) {
+    header {
+        background-color: #bfbfbf;
+        width: 500px;
+        display: flex;
+        margin: auto;
+        height: 4em;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        padding: 0px 5vw 0px 15px; /*Arriba Derecha Abajo Izquierda */
+        
+        
+    }
+    h1 {
+        font-size: 1em;
+        margin: auto;
+    }
+    nav {
+        display: inline-block;
+          /* Quitar posiblemente*/
+        
+    }
+    
+        nav ul {
+            margin: auto;
+            padding: 0;
+            list-style: none;
+            padding-left: 5%;
+            
+        }
+            nav ul li {
+                display: inline-block;
+                line-height: 80px;
+                
+               
+            }
+                nav ul li a {
+                    
+                    padding: 0 10px;
+                    text-decoration: none;
+                    color: #000000;
+                    
+                }
+                    nav ul li a:hover {
+                        background: #002171; 
+                        color: #b4e2fc;
+                    }
+
+
+
+h2 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.5em;
+    padding-left: 1vw;
+}
+
+img {
+    height:30em;
+    width: 30em;
+}
+
+p {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto;
+    grid-row-gap: 3vh;
+    padding-left: 3em;
+}
+
+.listafrases {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+    
+}
+
+.perfilpersonal {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto 20em;
+    padding-bottom: 5vh;
+}
+.perfilpersonal > p {
+    margin: auto;
+    float: center;
+    padding-bottom: 5vh;
+}
+.perfilpersonal > img {
+    margin: auto;
+    float: center; 
+    
+}
+h3 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.2em;
+    padding-left: 1vw;
+}
+
+.perfilprofesional > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+.perfilacademico > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+}
+
+.perfiles {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    background-color: #f2f2f2;
+}
+.divcontacto {
+    display: grid;
+    grid-template-columns: 80%;
+}
+.divcontacto > ul {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    padding-left: 3em;
+    
+}
+.enlace {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;  
+    font-weight: 100;
+    background-color: #f2f2f2;
+    padding: 2em;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+.enlace > a {
+    color: #002171;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1em;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #bfbfbf;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: auto;
+    width: 500px;
+    margin: auto;
+    
+}
+}
